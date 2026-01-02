@@ -1,10 +1,14 @@
 # Vision-Guided Pick-and-Place with Kinova Gen3
 
 ## Demo
-![Demo](assets/demo2.gif)
+
+<p align="center">
+  <img src="assets/demo.gif" width="350">
+</p>
+*Vision-guided pick-and-place using ArUco marker pose estimation and Cartesian motion on a Kinova Gen3.*
 
 
-This repository contains a real-world pick-and place project implemented on a Kinova Gen3 robotic arm, using an Intel RealSense RGB-D camera and an ArUco marker for object pose estimation.
+This repository contains a real-world pick-and-place project implemented on a Kinova Gen3 robotic arm, using an Intel RealSense RGB-D camera and an ArUco marker for object pose estimation.
 
 It demonstrates a minimal but complete vision-to-manipulation pipeline in camera perception → pose estimation → frame transformation → Cartesian motion → gripper execution.
 
@@ -66,7 +70,7 @@ The Kinova Kortex API (python) and Intel RealSense SDK must be installed separat
 
 **Running the Project:**  
 ```bash  
-python src/pick.py --ip \<ROBOT\_IP\> --username admin --password admin  
+python src/pick.py --ip <ROBOT_IP> --username admin --password admin  
 ```
 
 **Controls**
@@ -91,10 +95,10 @@ These values are hardware-specific and must be recalibrated if the setup changes
 
 ```bash  
 src/  
-├─ pick.py                            \# Main entry point  
-├─ vision\_aruco.py                   \# ArUco detection and pose estimation  
-├─ move\_cartesian.py                 \# Cartesian waypoint motion  
-├─ gripper\_control.py                \# Gripper open / close  
-├─ grasp\_utils.py                    \# Approach, grasp, lift pose computation  
-└─ utilities.py                       \# Robot connection utilities
+├─ pick.py                            # Main entry point  
+├─ vision\_aruco.py                   # ArUco detection and pose estimation  
+├─ move\_cartesian.py                 # Cartesian waypoint motion  
+├─ gripper\_control.py                # Gripper open / close  
+├─ grasp\_utils.py                    # Approach, grasp, lift pose computation  
+└─ utilities.py                       # Robot connection utilities
 ```
