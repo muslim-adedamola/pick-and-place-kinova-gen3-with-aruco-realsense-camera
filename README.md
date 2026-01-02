@@ -3,7 +3,7 @@
 ## Demo
 
 <p align="center">
-  <img src="assets/demo2.gif" width="350">
+  <img src="assets/demo3.gif" width="350">
 </p>
 
 
