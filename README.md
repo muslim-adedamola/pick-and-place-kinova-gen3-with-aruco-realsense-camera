@@ -5,7 +5,6 @@
 <p align="center">
   <img src="assets/demo2.gif" width="350">
 </p>
-*Vision-guided pick-and-place using ArUco marker pose estimation and Cartesian motion on a Kinova Gen3.*
 
 
 This repository contains a real-world pick-and-place project implemented on a Kinova Gen3 robotic arm, using an Intel RealSense RGB-D camera and an ArUco marker for object pose estimation.
