@@ -3,7 +3,7 @@
 ## Demo
 
 <p align="center">
-  <img src="assets/demo.gif" width="350">
+  <img src="assets/demo2.gif" width="350">
 </p>
 *Vision-guided pick-and-place using ArUco marker pose estimation and Cartesian motion on a Kinova Gen3.*
 
