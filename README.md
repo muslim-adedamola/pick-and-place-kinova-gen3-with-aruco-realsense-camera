@@ -53,7 +53,7 @@ This project is intentionally **simple and explicit**, and is aimed at:
 
 **Install Python dependencies**:  
 ```bash  
-pip install \-r requirements.txt  
+pip install -r requirements.txt  
 ```  
 **N:B**  
 The Kinova Kortex API (python) and Intel RealSense SDK must be installed separately.  
@@ -62,7 +62,7 @@ The Kinova Kortex API (python) and Intel RealSense SDK must be installed separat
 
 **Running the Project:**  
 ```bash  
-python src/pick.py \--ip \<ROBOT\_IP\> \--username admin \--password admin  
+python src/pick.py --ip \<ROBOT\_IP\> --username admin --password admin  
 ```
 
 **Controls**
